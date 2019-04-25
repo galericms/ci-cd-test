@@ -1,0 +1,22 @@
+{
+  "name": "ci-cd-test",
+  "version": "1.0.0",
+  "description": "Repo for testing CI/CD using TravisCI",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galericms/ci-cd-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galericms/ci-cd-test/issues"
+  },
+  "homepage": "https://github.com/galericms/ci-cd-test#readme",
+  "dependencies": {
+    "jshint": "^2.10.2"
+  }
+}
