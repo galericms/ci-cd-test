@@ -2,6 +2,9 @@
 language: node_js
 node_js:
   - "node"
+cache:
+  directories:
+  - frontend/node_modules/
 install:
   - cd frontend/
   - npm install
