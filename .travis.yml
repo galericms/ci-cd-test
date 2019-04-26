@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - "6.9.0"
 install:
-  - ls -l
-  - cd frontend && npm install
+  - cd frontend/
+  - npm install
 script:
-  - cd frontend && npm run build
   - pwd
+  - npm run build
   - ls
